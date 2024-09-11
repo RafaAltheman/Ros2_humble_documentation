@@ -107,3 +107,24 @@ OBS: se caso você precise vizualizar o que está sendo publicado utilize:
 5- Para ativar uma interface:
 
 --> ros2 interface show <type_name>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--> COMO FUNCIONAM OS PARÂMETROS EM ROS2 (parameters)
+
+1- Para que são utilizados?
+
+--> Para alterar informações de um nó sem alterar o código fonte, definindo variáveis, constantes ...
+
+2- listar parâmetros:
+
+--> ros2 param list
+
+3- Pegar um informação específica:
+
+--> ros2 param get <node_name> <parameter_name>
+
+4- Para mudar um parâmetro:
+
+--> ros2 param set <node_name> <parameter_name> <value>
