@@ -1,0 +1,37 @@
+[3.772s] Invoking command in '/home/robo/ros2_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/robo/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data
+[4.725s] running develop
+[4.727s] /home/robo/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.728s] !!
+[4.728s] 
+[4.728s]         ********************************************************************************
+[4.728s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.728s]         Instead, use pypa/build, pypa/installer or other
+[4.734s]         standards-based tools.
+[4.734s] 
+[4.734s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.734s]         ********************************************************************************
+[4.735s] 
+[4.735s] !!
+[4.735s]   easy_install.initialize_options(self)
+[5.494s] running egg_info
+[5.494s] creating examples_rclpy_guard_conditions.egg-info
+[5.605s] writing examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[5.605s] writing dependency_links to examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[5.605s] writing entry points to examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[5.606s] writing requirements to examples_rclpy_guard_conditions.egg-info/requires.txt
+[5.606s] writing top-level names to examples_rclpy_guard_conditions.egg-info/top_level.txt
+[5.606s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[5.708s] reading manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[5.708s] writing manifest file 'examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[5.757s] running build_ext
+[5.759s] Creating /home/robo/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[5.759s] Installing trigger_guard_condition script to /home/robo/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[5.765s] 
+[5.765s] Installed /home/robo/ros2_ws/build/examples_rclpy_guard_conditions
+[5.765s] running symlink_data
+[5.766s] creating /home/robo/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index
+[5.766s] creating /home/robo/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index
+[5.766s] creating /home/robo/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[5.766s] symbolically linking /home/robo/ros2_ws/build/examples_rclpy_guard_conditions/resource/examples_rclpy_guard_conditions -> /home/robo/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[5.766s] symbolically linking /home/robo/ros2_ws/build/examples_rclpy_guard_conditions/package.xml -> /home/robo/ros2_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[5.946s] Invoked command in '/home/robo/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/robo/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo/ros2_ws/build/examples_rclpy_guard_conditions/build --no-deps symlink_data

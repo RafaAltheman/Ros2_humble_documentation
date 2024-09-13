@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/robo/ros2_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robo/ros2_ws/install/launch_testing_examples:/home/robo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/robo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/robo/ros2_ws/install/examples_rclpy_minimal_service:/home/robo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/robo/ros2_ws/install/examples_rclpy_minimal_client:/home/robo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/robo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/robo/ros2_ws/install/examples_rclpy_guard_conditions:/home/robo/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/robo/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_ws/src/cpp_pubsub/install/cpp_pubsub
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.232s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.325s] -- Detecting CXX compiler ABI info - done
+[0.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.334s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.340s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.773s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.909s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.020s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.021s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[1.021s]   before
+[1.021s] Call Stack (most recent call first):
+[1.021s]   CMakeLists.txt:29 (ament_target_dependencies)
+[1.021s] 
+[1.021s] [0m
+[1.021s] -- Configuring incomplete, errors occurred!
+[1.021s] See also "/home/robo/ros2_ws/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[1.026s] Invoked command in '/home/robo/ros2_ws/src/cpp_pubsub/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robo/ros2_ws/install/launch_testing_examples:/home/robo/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/robo/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/robo/ros2_ws/install/examples_rclpy_minimal_service:/home/robo/ros2_ws/install/examples_rclpy_minimal_publisher:/home/robo/ros2_ws/install/examples_rclpy_minimal_client:/home/robo/ros2_ws/install/examples_rclpy_minimal_action_server:/home/robo/ros2_ws/install/examples_rclpy_minimal_action_client:/home/robo/ros2_ws/install/examples_rclpy_guard_conditions:/home/robo/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/robo/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_ws/src/cpp_pubsub/install/cpp_pubsub

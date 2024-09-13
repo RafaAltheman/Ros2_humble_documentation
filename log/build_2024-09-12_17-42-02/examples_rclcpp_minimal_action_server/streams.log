@@ -1,0 +1,25 @@
+[0.036s] Invoking command in '/home/robo/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j8 -l8
+[0.198s] [ 50%] Built target action_server_not_composable
+[0.208s] [100%] Built target action_server_member_functions
+[0.276s] Invoked command in '/home/robo/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j8 -l8
+[0.337s] Invoking command in '/home/robo/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/ros2_ws/build/examples_rclcpp_minimal_action_server
+[0.349s] -- Install configuration: ""
+[0.352s] -- Execute custom install script
+[0.352s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[0.352s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[0.353s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[0.353s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[0.354s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[0.354s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[0.355s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[0.355s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[0.356s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[0.356s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[0.356s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[0.356s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[0.359s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[0.368s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[0.369s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[0.370s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[0.370s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[0.413s] Invoked command in '/home/robo/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/ros2_ws/build/examples_rclcpp_minimal_action_server

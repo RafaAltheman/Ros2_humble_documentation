@@ -1,0 +1,35 @@
+[1.850s] Invoking command in '/home/robo/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/robo/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
+[2.571s] running develop
+[2.572s] /home/robo/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.572s] !!
+[2.572s] 
+[2.572s]         ********************************************************************************
+[2.572s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.572s]         Instead, use pypa/build, pypa/installer or other
+[2.572s]         standards-based tools.
+[2.572s] 
+[2.573s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.573s]         ********************************************************************************
+[2.573s] 
+[2.573s] !!
+[2.573s]   easy_install.initialize_options(self)
+[2.886s] running egg_info
+[2.886s] creating launch_testing_examples.egg-info
+[2.908s] writing launch_testing_examples.egg-info/PKG-INFO
+[2.909s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[2.909s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[2.909s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[2.910s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.952s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.953s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[3.102s] running build_ext
+[3.102s] Creating /home/robo/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[3.103s] 
+[3.103s] Installed /home/robo/ros2_ws/build/launch_testing_examples
+[3.103s] running symlink_data
+[3.104s] creating /home/robo/ros2_ws/install/launch_testing_examples/share/ament_index
+[3.104s] creating /home/robo/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[3.104s] creating /home/robo/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[3.104s] symbolically linking /home/robo/ros2_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/robo/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[3.104s] symbolically linking /home/robo/ros2_ws/build/launch_testing_examples/package.xml -> /home/robo/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[3.158s] Invoked command in '/home/robo/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/robo/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/robo/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data

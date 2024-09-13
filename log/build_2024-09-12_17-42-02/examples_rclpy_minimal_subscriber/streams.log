@@ -1,0 +1,23 @@
+[3.324s] Invoking command in '/home/robo/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/robo/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/robo/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/robo/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data
+[5.520s] running egg_info
+[5.589s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[5.590s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[5.590s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[5.592s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[5.592s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[5.660s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.660s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[5.661s] running build
+[5.662s] running build_py
+[5.663s] running install
+[5.672s] running install_lib
+[5.701s] running install_data
+[5.701s] running install_egg_info
+[5.727s] removing '/home/robo/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.2-py3.10.egg-info' (and everything under it)
+[5.727s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/robo/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.2-py3.10.egg-info
+[5.728s] running install_scripts
+[5.958s] Installing subscriber_lambda script to /home/robo/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.958s] Installing subscriber_member_function script to /home/robo/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.958s] Installing subscriber_old_school script to /home/robo/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[5.959s] writing list of installed files to '/home/robo/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[6.014s] Invoked command in '/home/robo/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/robo/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robo/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/robo/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/robo/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data

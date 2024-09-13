@@ -1,0 +1,25 @@
+[0.055s] Invoking command in '/home/robo/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/ros2_ws/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[0.203s] [ 50%] Built target timer_lambda
+[0.221s] [100%] Built target timer_member_function
+[0.469s] Invoked command in '/home/robo/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/ros2_ws/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[0.951s] Invoking command in '/home/robo/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/ros2_ws/build/examples_rclcpp_minimal_timer
+[0.989s] -- Install configuration: ""
+[0.989s] -- Execute custom install script
+[0.989s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[0.989s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[0.989s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[0.989s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[0.989s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[0.990s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[0.990s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[0.990s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[0.990s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[0.990s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[0.990s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[0.990s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[0.991s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[1.004s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[1.004s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[1.005s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[1.005s] -- Up-to-date symlink: /home/robo/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[1.017s] Invoked command in '/home/robo/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/ros2_ws/build/examples_rclcpp_minimal_timer

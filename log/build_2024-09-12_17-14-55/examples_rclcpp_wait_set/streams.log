@@ -1,0 +1,119 @@
+[0.043s] Invoking command in '/home/robo/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robo/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_ws/install/examples_rclcpp_wait_set
+[0.618s] -- The C compiler identification is GNU 11.4.0
+[0.618s] -- The CXX compiler identification is GNU 11.4.0
+[0.618s] -- Detecting C compiler ABI info
+[0.730s] -- Detecting C compiler ABI info - done
+[0.762s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.764s] -- Detecting C compile features
+[0.765s] -- Detecting C compile features - done
+[0.775s] -- Detecting CXX compiler ABI info
+[1.048s] -- Detecting CXX compiler ABI info - done
+[1.075s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.075s] -- Detecting CXX compile features
+[1.076s] -- Detecting CXX compile features - done
+[1.084s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.147s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.305s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.358s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.477s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.486s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.501s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.044s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.168s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.176s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.422s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.519s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.655s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.691s] -- Looking for pthread.h
+[4.017s] -- Looking for pthread.h - found
+[4.017s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.287s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.299s] -- Found Threads: TRUE  
+[4.669s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.897s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.259s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.266s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.266s] -- Configured cppcheck include dirs: /home/robo/ros2_ws/src/examples/rclcpp/wait_set/include
+[5.266s] -- Configured cppcheck exclude dirs and/or files: 
+[5.271s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.273s] -- Configured cpplint exclude dirs and/or files: 
+[5.279s] -- Added test 'lint_cmake' to check CMake code style
+[5.282s] -- Added test 'uncrustify' to check C / C++ code style
+[5.283s] -- Configured uncrustify additional arguments: 
+[5.285s] -- Added test 'xmllint' to check XML markup files
+[5.295s] -- Configuring done
+[5.462s] -- Generating done
+[5.467s] -- Build files have been written to: /home/robo/ros2_ws/build/examples_rclcpp_wait_set
+[5.499s] Invoked command in '/home/robo/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robo/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_ws/install/examples_rclcpp_wait_set
+[5.500s] Invoking command in '/home/robo/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[6.793s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[14.228s] [  8%] [32m[1mLinking CXX shared library libtalker.so[0m
+[14.689s] [  8%] Built target talker
+[14.726s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[27.672s] [ 16%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[27.758s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[27.758s] [ 25%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[28.523s] [ 25%] Built target wait_set_topics_and_timer
+[28.559s] [ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[29.591s] [ 33%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[30.647s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[30.688s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[31.745s] [ 45%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[39.453s] [ 50%] [32m[1mLinking CXX executable wait_set_listener[0m
+[40.001s] [ 50%] Built target wait_set_listener
+[53.017s] [ 54%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[54.308s] [ 54%] Built target thread_safe_wait_set
+[61.096s] [ 58%] [32m[1mLinking CXX executable executor_random_order[0m
+[61.213s] [ 62%] [32m[1mLinking CXX executable static_wait_set[0m
+[61.734s] [ 62%] Built target executor_random_order
+[61.773s] [ 66%] [32m[1mLinking CXX executable wait_set[0m
+[61.810s] [ 70%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[61.914s] [ 75%] [32m[1mLinking CXX shared library liblistener.so[0m
+[62.109s] [ 75%] Built target static_wait_set
+[62.627s] [ 75%] Built target wait_set
+[62.678s] [ 75%] Built target wait_set_random_order
+[62.740s] [ 75%] Built target listener
+[62.764s] [ 79%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[73.210s] [ 83%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[73.698s] [ 83%] Built target wait_set_topics_with_different_rates
+[73.721s] [ 87%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[76.796s] [ 91%] [32m[1mLinking CXX executable wait_set_composed[0m
+[77.049s] [ 91%] Built target wait_set_composed
+[77.072s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[80.282s] [100%] [32m[1mLinking CXX executable wait_set_talker[0m
+[80.414s] [100%] Built target wait_set_talker
+[80.427s] Invoked command in '/home/robo/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[80.491s] Invoking command in '/home/robo/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/ros2_ws/build/examples_rclcpp_wait_set
+[80.500s] -- Install configuration: ""
+[80.500s] -- Execute custom install script
+[80.501s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[80.511s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[80.521s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[80.530s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[80.541s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[80.551s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[80.560s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[80.569s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[80.579s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[80.588s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[80.598s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[80.608s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[80.617s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[80.627s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[80.636s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[80.646s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[80.655s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[80.664s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[80.673s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[80.683s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[80.693s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[80.702s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[80.712s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[80.722s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[80.731s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[80.741s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[80.750s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[80.759s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[80.771s] Invoked command in '/home/robo/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/ros2_ws/build/examples_rclcpp_wait_set

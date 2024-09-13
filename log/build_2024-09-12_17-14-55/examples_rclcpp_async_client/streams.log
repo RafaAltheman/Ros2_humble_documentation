@@ -1,0 +1,73 @@
+[0.043s] Invoking command in '/home/robo/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robo/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_ws/install/examples_rclcpp_async_client
+[1.083s] -- The C compiler identification is GNU 11.4.0
+[1.727s] -- The CXX compiler identification is GNU 11.4.0
+[1.752s] -- Detecting C compiler ABI info
+[2.014s] -- Detecting C compiler ABI info - done
+[2.033s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.033s] -- Detecting C compile features
+[2.033s] -- Detecting C compile features - done
+[2.041s] -- Detecting CXX compiler ABI info
+[2.217s] -- Detecting CXX compiler ABI info - done
+[2.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.233s] -- Detecting CXX compile features
+[2.233s] -- Detecting CXX compile features - done
+[2.252s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.075s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.237s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.314s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[3.413s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.423s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.447s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.532s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.944s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[4.061s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.065s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.236s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.290s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.377s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.393s] -- Looking for pthread.h
+[4.540s] -- Looking for pthread.h - found
+[4.541s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.725s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.727s] -- Found Threads: TRUE  
+[5.069s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.224s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.224s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.226s] -- Configured cppcheck include dirs: 
+[5.226s] -- Configured cppcheck exclude dirs and/or files: 
+[5.227s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.227s] -- Configured cpplint exclude dirs and/or files: 
+[5.229s] -- Added test 'lint_cmake' to check CMake code style
+[5.231s] -- Added test 'uncrustify' to check C / C++ code style
+[5.231s] -- Configured uncrustify additional arguments: 
+[5.231s] -- Added test 'xmllint' to check XML markup files
+[5.240s] -- Configuring done
+[5.266s] -- Generating done
+[5.271s] -- Build files have been written to: /home/robo/ros2_ws/build/examples_rclcpp_async_client
+[5.323s] Invoked command in '/home/robo/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robo/ros2_ws/src/examples/rclcpp/services/async_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_ws/install/examples_rclcpp_async_client
+[5.324s] Invoking command in '/home/robo/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/ros2_ws/build/examples_rclcpp_async_client -- -j8 -l8
+[5.490s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[27.927s] [100%] [32m[1mLinking CXX executable client_main[0m
+[28.792s] [100%] Built target client_main
+[28.843s] Invoked command in '/home/robo/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/ros2_ws/build/examples_rclcpp_async_client -- -j8 -l8
+[28.960s] Invoking command in '/home/robo/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/ros2_ws/build/examples_rclcpp_async_client
+[29.175s] -- Install configuration: ""
+[29.175s] -- Execute custom install script
+[29.175s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[29.176s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[29.176s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[29.176s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[29.176s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[29.177s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[29.207s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[29.238s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[29.274s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[29.304s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[29.337s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[29.374s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[29.426s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[29.450s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[29.490s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[29.513s] -- Symlinking: /home/robo/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[29.543s] Invoked command in '/home/robo/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/ros2_ws/build/examples_rclcpp_async_client
